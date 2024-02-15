@@ -8,10 +8,6 @@ from sqlalchemy.orm import DeclarativeBase, relationship
 class Base(DeclarativeBase):
     pass
 
-# Определяем класс SessionContext (понадобится для создания запросов на выборку значений)
-class SessionContext:
-    pass
-
 
 # Создаем классы (таблицы)
 class Publisher(Base):
